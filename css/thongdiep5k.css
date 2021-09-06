@@ -1,0 +1,126 @@
+/* ===== Thông điệp 5k ========= */
+.thongdiep5k
+{
+    width: 100%;
+    min-height: 1200px;
+    position: relative;
+}
+.ingredient-center,
+.ingredient-1,
+.ingredient-2,
+.ingredient-3,
+.ingredient-4,
+.ingredient-5
+{
+    border-radius: 20%;
+    height: 400px;
+    width: 20%;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(39, 59, 133);
+    padding: 0 20px;
+
+}
+.ingredient-center
+{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+}
+
+.ingredient-center img{
+    width: 100%;
+}
+.ingredient-center .khien
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ingredient-center .boom
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: none;
+}
+.ingredient-center .boom.active
+{
+    display: block;
+    animation-name: boom;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes boom {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1.6);
+    }
+}
+.ingredient-1
+{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.ingredient-1 img 
+{
+    width: 80%;
+}
+
+.ingredient-2
+{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+.ingredient-2 img 
+{
+    width: 100%;
+}
+.ingredient-3
+{
+    position: absolute;
+    bottom: 3%;
+    right: 20%;
+}
+.ingredient-3 img
+{
+    width: 100%;
+}
+.ingredient-4
+{
+    position: absolute;
+    bottom: 3%;
+    left: 20%;
+}
+.ingredient-4 img 
+{
+    width: 100%;
+}
+.ingredient-5
+{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+.ingredient-5 img{
+    width: 80%;
+}
+.ingredient-1:hover,
+.ingredient-2:hover,
+.ingredient-3:hover,
+.ingredient-4:hover,
+.ingredient-5:hover
+{
+    background-color: rgba(107, 170, 211,0.2);
+    box-shadow: 0 0 10px rgba(64, 164, 231,0.4);
+    transform: scale(1.2);
+    transition: 0.45s;
+}
