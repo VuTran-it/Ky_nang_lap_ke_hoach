@@ -73,34 +73,63 @@ a{
     margin: 2% 0 0 10%;
 }
 
-.header .nav{
+.nav{
     width: 70%;
 }
 
-.header .nav li {
-    margin-top: 20px;
-    margin-left: 25px;
+.nav li {
+    padding: 20px 0 20px 25px ;
     display: inline-block;
+    position: relative;
 }
 
-.header .nav li a{
+.nav li a{
     opacity: 0.7;
     font-size: 16px;
     color: rgb(107, 170, 211);
     text-transform: uppercase;
     font-weight: bold;
 }
-.header .nav li:hover a
+.nav li:hover > a
 {
     opacity: 1;
-    font-size: 18px;
+    font-size: 17px;
     transition: 0.5s;
+}
+.nav li:hover .subnav{
+    display: block;
 }
 .active
 {
     opacity: 1 !important;
     font-size: 18px !important;
 }
+.subnav
+{
+    display: none;
+    width: 300px;
+    box-shadow: 0 0 10px rgb(107, 170, 211);
+    position: absolute;
+    top: 100%;
+    left: 28px;
+    background-color: white;
+    border-radius: 10px;
+}
+.subnav li 
+{
+    margin: 0 !important;
+    padding: 10px 10px 10px 15px;
+    width: 100%;
+}
+.subnav li:hover
+{
+    background-color: rgba(107, 170, 211,0.5);
+} 
+.subnav li:hover a
+{
+    color: rgba(0, 0, 0, 0.5);
+}
+/* =================================================================================================== */
 .slider
 {
     margin-top: 60px;
