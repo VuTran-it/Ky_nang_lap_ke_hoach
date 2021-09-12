@@ -1,51 +1,66 @@
-.content-tinhhinh{
-    width: 80%;
-    /* margin-top: 60px; */
-    margin-left: 10%;
-    border-radius: 2%;
-    padding: 20px;
-}
-
-.img{
-    margin: 1% 0 1% 9%;
-}
-
-.thoigian
+.content-tinhhinh
 {
-    opacity: 0.5;
-    padding: 10px;
-    text-align: center;
-    font-size: 36px;
-    color: rgb(107, 170, 211);
-    margin-top: 3%;
-    border-top: 3px dotted rgba(107, 170, 211,0.5);
+    margin-top: 80px;
 }
-.thoigian:hover
+.row
+{
+    margin-top: 30px;
+}
+.ingredient
+{
+    padding: 20px 30px;
+    margin-left: 5%;
+    box-shadow: 0 0 20px rgb(107, 170, 211);
+    border-radius: 20px;
+}
+
+.ingredient h2
+{
+    font-size: 24px;
+    color: rgb(70, 123, 158);
+}
+
+.ingredient img 
+{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.ingredient .text
+{
+    font-size: 18px;
+}
+
+.ingredient button
+{
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 26px;
+    background-color: rgb(107, 170, 211);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    opacity: 0.7;
+}
+.ingredient button a
+{
+    
+    color: black;
+}
+.ingredient button:hover
 {
     opacity: 1;
-    font-size: 46px;
-    transition: 0.5s;
+    transition: 0.45s;
+    transform: scale(1.1);
 }
-.mucde
+.ket
 {
-    width: 100%;
-}
-.mucde img 
-{
-    width: 4%;
-    display: inline-block;
-    margin-left: 10%;
-}
-h1
-{
-    color: rgb(51, 108, 146);
-    margin: 2% 0 30px 0;
-    display: inline-block;
-}
-.text
-{
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 10px;
-    font-size: 18px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(107, 170, 211);
+    border: 5px double rgb(70, 123, 158);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+    padding: 15px;
 }
