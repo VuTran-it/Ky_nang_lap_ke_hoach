@@ -23,6 +23,31 @@ const app = {
             img2: './img/truyen/h8.jpg"',
             img3: './img/truyen/h9.jpg"',
         },
+        {
+            img1: './img/truyen/h10.jpg"',
+            img2: './img/truyen/h11.jpg"',
+            img3: './img/truyen/h12.jpg"',
+        },
+        {
+            img1: './img/truyen/h13.jpg"',
+            img2: './img/truyen/h14.jpg"',
+            img3: './img/truyen/h15.jpg"',
+        },
+        {
+            img1: './img/truyen/h16.jpg"',
+            img2: './img/truyen/h17.jpg"',
+            img3: './img/truyen/h18.jpg"',
+        },
+        {
+            img1: './img/truyen/h19.jpg"',
+            img2: './img/truyen/h20.jpg"',
+            img3: './img/truyen/h21.jpg"',
+        },
+        {
+            img1: './img/truyen/h22.jpg"',
+            img2: './img/truyen/h23.jpg"',
+            img3: './img/truyen/h24.jpg"',
+        },
     ],
     render: function () {
         const htmls = this.imgs.map((img, index) => {
