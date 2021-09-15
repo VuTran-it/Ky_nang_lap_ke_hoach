@@ -241,9 +241,9 @@ a{
     transition: 0.5s;
 }
 .box_tu{
-    height: 500px !important;
-    width: 500px !important;
+    height: 500px ;
+    width: 100% ;
     background-color:red;
-    
+
 }
 
