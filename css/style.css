@@ -240,4 +240,10 @@ a{
     opacity: 1;
     transition: 0.5s;
 }
+.box_tu{
+    height: 500px !important;
+    width: 500px !important;
+    background-color:red;
+    
+}
 
