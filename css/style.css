@@ -206,7 +206,6 @@ a{
 
 .information .img img{
     width: 100%;
-    margin-top: 500px;
 }
 .information .text h2
 {
@@ -241,10 +240,3 @@ a{
     opacity: 1;
     transition: 0.5s;
 }
-.box_tu{
-    height: 500px ;
-    width: 100% ;
-    background-color:red;
-
-}
-

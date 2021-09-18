@@ -70,3 +70,8 @@ h2
     color: rgb(107, 170, 211);
     margin-bottom: 40px;
 }
+
+b, u
+{
+    color: rgb(46, 118, 167);
+}
