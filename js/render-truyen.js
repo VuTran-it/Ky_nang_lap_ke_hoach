@@ -48,6 +48,21 @@ const app = {
             img2: './img/truyen/h23.jpg"',
             img3: './img/truyen/h24.jpg"',
         },
+        {
+            img1: './img/truyen/h22.jpg"',
+            img2: './img/truyen/h23.jpg"',
+            img3: './img/truyen/h24.jpg"',
+        },
+        {
+            img1: './img/truyen/h25.jpg"',
+            img2: './img/truyen/h26.jpg"',
+            img3: './img/truyen/h27.jpg"',
+        },
+        {
+            img1: './img/truyen/h28.jpg"',
+            img2: './img/truyen/h29.jpg"',
+            img3: './img/truyen/h30.jpg"',
+        },
     ],
     render: function () {
         const htmls = this.imgs.map((img, index) => {
